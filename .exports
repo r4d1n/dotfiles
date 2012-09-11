@@ -11,3 +11,7 @@ export HISTFILESIZE=$HISTSIZE
 export HISTCONTROL=ignoredups
 # Make some commands not show up in history
 export HISTIGNORE="ls:cd:cd -:pwd:exit:date:* --help"
+
+export PATH="/usr/local/bin:$PATH"
+export PATH="~/bin:$PATH"
+export PATH="$HOME/.rvm/bin:$PATH"
