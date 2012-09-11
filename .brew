@@ -46,6 +46,8 @@ brew install node
 # brew install webkit2png
 brew install redis
 brew install sqlite
+brew install qt
+brew install mysql
 
 # Remove outdated versions from the cellar
 brew cleanup
