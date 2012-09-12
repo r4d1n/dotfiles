@@ -49,7 +49,6 @@ fun! <SID>StripWhitespace()
   let l = line(".")
   let c = col(".")
   %s/\s\+$//e
-  ''
   call cursor(l, c)
 endfun
 
@@ -64,3 +63,4 @@ filetype plugin on
 
 " Treat .json files as .js
 autocmd BufNewFile,BufRead *.json setfiletype json syntax=javascript
+autocmd BufNewFile,BufRead *.coffee setfiletype coffeescript syntax=coffee
