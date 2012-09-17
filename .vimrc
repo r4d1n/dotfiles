@@ -3,6 +3,8 @@ colorscheme ir_black
 set colorcolumn=80
 set encoding=utf-8
 set t_Co=256
+set autoindent
+set smarttab
 
 " Centralize backups, swapfiles and undo history
 set backupdir=~/.vim/backups
@@ -17,7 +19,7 @@ set secure
 " Enable line numbers
 set number
 " Make tabs as wide as two spaces
-set tabstop=2
+set ts=2
 set expandtab
 
 " Always show status line
