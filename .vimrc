@@ -1,5 +1,6 @@
 syntax enable
-colorscheme ir_black
+colorscheme molokai
+
 set colorcolumn=80
 set encoding=utf-8
 set t_Co=256
@@ -32,9 +33,6 @@ set visualbell
 
 " Show the current mode
 set showmode
-
-" Show the (partial) command as it’s being typed
-set showcmd
 
 " Start scrolling three lines before the horizontal window border
 set scrolloff=3
