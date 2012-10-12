@@ -70,3 +70,4 @@ alias bcuke="bundle exec cucumber"
 alias binstall="bundle install"
 
 alias crepe="grep -irn"
+alias grapp="ps -ax | grep"

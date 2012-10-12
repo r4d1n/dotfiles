@@ -52,6 +52,5 @@ map - :Explore<CR>
 " Enable file type detection
 filetype plugin indent on
 
-" Treat .json files as .js
 autocmd BufNewFile,BufRead *.json setfiletype json syntax=javascript
 autocmd BufNewFile,BufRead *.coffee setfiletype coffeescript syntax=coffee
