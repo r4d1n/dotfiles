@@ -13,6 +13,13 @@ if exists("&undodir")
   set undodir=~/.vim/undo
 endif
 
+" use vundle
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+Bundle 'gmarik/vundle'
+Bundle 'ervandew/supertab'
+
 " Enable line numbers
 set number
 
