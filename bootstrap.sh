@@ -14,4 +14,7 @@ else
 	fi
 fi
 unset doIt
+
+vim +BundleInstall +qall
+
 source ~/.bash_profile
