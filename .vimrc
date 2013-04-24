@@ -19,6 +19,7 @@ call vundle#rc()
 
 Bundle 'gmarik/vundle'
 Bundle 'ervandew/supertab'
+Bundle 'digitaltoad/vim-jade'
 
 " Enable line numbers
 set number
@@ -59,5 +60,6 @@ map - :Explore<CR>
 " Enable file type detection
 filetype plugin indent on
 
+autocmd BufNewFile,BufRead *.jade setfiletype jade syntax=jade
 autocmd BufNewFile,BufRead *.json setfiletype json syntax=javascript
 autocmd BufNewFile,BufRead *.coffee setfiletype coffeescript syntax=coffee
