@@ -20,6 +20,7 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 Bundle 'ervandew/supertab'
 Bundle 'digitaltoad/vim-jade'
+Bundle 'kchmck/vim-coffee-script'
 
 " Enable line numbers
 set number
@@ -63,3 +64,5 @@ filetype plugin indent on
 autocmd BufNewFile,BufRead *.jade setfiletype jade syntax=jade
 autocmd BufNewFile,BufRead *.json setfiletype json syntax=javascript
 autocmd BufNewFile,BufRead *.coffee setfiletype coffeescript syntax=coffee
+autocmd BufNewFile,BufRead *.curly setfiletype html syntax=html
+autocmd BufNewFile,BufRead Gemfile setfiletype ruby syntax=ruby
