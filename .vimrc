@@ -21,6 +21,7 @@ Bundle 'gmarik/vundle'
 Bundle 'ervandew/supertab'
 Bundle 'digitaltoad/vim-jade'
 Bundle 'kchmck/vim-coffee-script'
+Bundle 'editorconfig/editorconfig-vim'
 
 " Enable line numbers
 set number
@@ -29,6 +30,7 @@ set number
 set expandtab
 set shiftwidth=2
 set softtabstop=2
+set tabstop=2
 set nosmarttab
 
 set autoindent
@@ -65,4 +67,7 @@ autocmd BufNewFile,BufRead *.jade setfiletype jade syntax=jade
 autocmd BufNewFile,BufRead *.json setfiletype json syntax=javascript
 autocmd BufNewFile,BufRead *.coffee setfiletype coffeescript syntax=coffee
 autocmd BufNewFile,BufRead *.curly setfiletype html syntax=html
+autocmd BufNewFile,BufRead *.hbs setfiletype html syntax=html
+autocmd BufNewFile,BufRead *.less setfiletype scss syntax=scss
+autocmd BufNewFile,BufRead *.ru setfiletype ruby syntax=ruby
 autocmd BufNewFile,BufRead Gemfile setfiletype ruby syntax=ruby
