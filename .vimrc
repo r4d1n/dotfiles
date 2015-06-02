@@ -17,6 +17,7 @@ set nosmarttab
 set autoindent
 set nosmartindent
 
+" colors
 colorscheme molokai
 
 " line numbers 
