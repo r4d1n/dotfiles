@@ -7,11 +7,9 @@ alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
 # Shortcuts
-alias d="cd ~/Documents/Dropbox"
-alias p="cd ~/Projects"
+alias prj="cd ~/Projects"
 alias g="git"
 alias h="history"
-alias j="jobs"
 alias v="vim"
 alias o="open"
 alias oo="open ."
@@ -63,11 +61,12 @@ for method in GET HEAD POST PUT DELETE TRACE OPTIONS; do
 done
 
 # Bundler commands
-alias bexec="bundle exec"
+alias be="bundle exec"
 alias brake="bundle exec rake"
 alias bspec="bundle exec rspec"
 alias bcuke="bundle exec cucumber"
 alias binstall="bundle install"
+alias rser="bundle exec rails s"
 
 alias crepe="grep -irn"
 alias grapp="ps -ax | grep"
