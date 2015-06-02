@@ -22,6 +22,3 @@
 [submodule ".vim/bundle/vim-javascript"]
 	path = .vim/bundle/vim-javascript
   url = git@github.com:pangloss/vim-javascript.git
-[submodule ".vim/bundle/vim-auto-save"]
-	path = .vim/bundle/vim-auto-save
-  url = git@github.com:907th/vim-auto-save.git
