@@ -43,5 +43,7 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 export NODE_PARENT=${HOME}/nodejs
 export PATH=${NODE_PARENT}/bin:${PATH}
 export NODE_PATH=${NODE_PARENT}/lib/node_modules
+# mongo
+export PATH=/usr/local/mongodb/bin:$PATH
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # This loads RVM into a shell session.
