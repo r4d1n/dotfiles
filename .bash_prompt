@@ -1,5 +1,5 @@
 if [ `/usr/bin/whoami` = "root" ] ; then
   PS1='[\@] \[$(tput setaf 1)\]\u@\h:\w \[$(tput sgr0)\]\$ '
 else
-  PS1='\[$(tput setaf 7)\][\@]\[$(tput sgr0)\] \[$(tput setaf 6)\]\u \[$(tput setaf 3)\]\w \[$(tput sgr0)\]\$ '
+  PS1='\[$(tput setaf 7)\][\@]\[$(tput sgr0)\] \[$(tput setaf 5)\]\u \[$(tput setaf 6)\]\w \[$(tput sgr0)\]\$ '
 fi
