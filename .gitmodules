@@ -25,3 +25,6 @@
 [submodule ".vim/bundle/html5.vim"]
 	path = .vim/bundle/html5.vim
 	url = git@github.com:othree/html5.vim.git
+[submodule ".vim/bundle/jsx.vim"]
+	path = .vim/bundle/jsx.vim
+	url = git@github.com:jsx/jsx.vim.git
