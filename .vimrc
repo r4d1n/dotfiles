@@ -5,10 +5,8 @@ filetype plugin indent on
 " colors
 colorscheme molokai
 
-
 set encoding=utf-8
 
-"filetype plugin on
 "let g:auto_save = 1
 
 "start ctrl p in current directory
@@ -43,9 +41,6 @@ set visualbell
 set showmode
 " Start scrolling three lines before the horizontal window border
 set scrolloff=3
-
-" Enable file type detection
-filetype plugin indent on
 
 autocmd BufNewFile,BufRead *.hbs setfiletype html syntax=html
 autocmd BufNewFile,BufRead *.json setfiletype json syntax=javascript
