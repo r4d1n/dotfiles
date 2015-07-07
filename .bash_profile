@@ -43,6 +43,7 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 export NODE_PARENT=${HOME}/nodejs
 export PATH=${NODE_PARENT}/bin:${PATH}
 export NODE_PATH=${NODE_PARENT}/lib/node_modules
+export N_PREFIX=${NODE_PARENT}
 # mongo
 export PATH=/usr/local/mongodb/bin:$PATH
 
