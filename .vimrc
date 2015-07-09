@@ -43,4 +43,5 @@ set showmode
 set scrolloff=3
 
 autocmd BufNewFile,BufRead *.hbs setfiletype html syntax=html
+autocmd BufNewFile,BufRead *.handlebars setfiletype html syntax=html
 autocmd BufNewFile,BufRead *.json setfiletype json syntax=javascript

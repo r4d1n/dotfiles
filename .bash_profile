@@ -47,4 +47,5 @@ export N_PREFIX=${NODE_PARENT}
 # mongo
 export PATH=/usr/local/mongodb/bin:$PATH
 
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # This loads RVM into a shell session.
+#[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # This loads RVM into a shell session.
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
