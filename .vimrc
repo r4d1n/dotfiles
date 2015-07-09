@@ -7,7 +7,7 @@ colorscheme molokai
 
 set encoding=utf-8
 
-"let g:auto_save = 1
+:command NT NERDTree
 
 "start ctrl p in current directory
 let g:ctrlp_working_path_mode = 0
