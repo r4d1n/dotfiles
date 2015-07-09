@@ -8,6 +8,7 @@ alias -- -="cd -"
 
 # Shortcuts
 alias prj="cd ~/Projects"
+alias dots="cd ~/dotfiles"
 alias g="git"
 alias h="history"
 alias v="vim"
