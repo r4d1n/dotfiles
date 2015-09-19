@@ -39,15 +39,19 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 # If possible, add tab completion for many more commands
 [ -f /etc/bash_completion ] && source /etc/bash_completion
 
-# Node stuff
+# node 
 export NODE_PARENT=${HOME}/nodejs
 export PATH=${NODE_PARENT}/bin:${PATH}
 export NODE_PATH=${NODE_PARENT}/lib/node_modules
 export N_PREFIX=${NODE_PARENT}
+
 # mongo
 export PATH=/usr/local/mongodb/bin:$PATH
 
-#[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # This loads RVM into a shell session.
-#if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+# go
+export PATH=$PATH:/usr/local/go/bin
+export GOPATH=$HOME/workspace
+
+# rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
