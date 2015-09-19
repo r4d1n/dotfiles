@@ -39,7 +39,7 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 # If possible, add tab completion for many more commands
 [ -f /etc/bash_completion ] && source /etc/bash_completion
 
-# node 
+# node
 export NODE_PARENT=${HOME}/nodejs
 export PATH=${NODE_PARENT}/bin:${PATH}
 export NODE_PATH=${NODE_PARENT}/lib/node_modules
@@ -51,6 +51,7 @@ export PATH=/usr/local/mongodb/bin:$PATH
 # go
 export PATH=$PATH:/usr/local/go/bin
 export GOPATH=$HOME/workspace
+export PATH=$PATH:$GOPATH/bin
 
 # rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
