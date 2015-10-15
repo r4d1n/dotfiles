@@ -50,5 +50,11 @@ export PATH=/usr/local/mongodb/bin:$PATH
 # heroku
 export PATH=/usr/local/heroku/bin:$PATH
 
-#[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # This loads RVM into a shell session.
-if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+# go
+export PATH=$PATH:/usr/local/go/bin
+export GOPATH=$HOME/workspace
+export PATH=$PATH:$GOPATH/bin
+
+# rbenv
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
