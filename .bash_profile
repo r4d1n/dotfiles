@@ -46,3 +46,15 @@ export NODE_PATH=${NODE_PARENT}/lib/node_modules
 export N_PREFIX=${NODE_PARENT}
 # mongo
 export PATH=/usr/local/mongodb/bin:$PATH
+
+# heroku
+export PATH=/usr/local/heroku/bin:$PATH
+
+# go
+export PATH=$PATH:/usr/local/go/bin
+export GOPATH=$HOME/workspace
+export PATH=$PATH:$GOPATH/bin
+
+# rbenv
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"

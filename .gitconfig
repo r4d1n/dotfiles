@@ -1,6 +1,6 @@
 [user]
   name = Jared Radin
-  email = jared.radin@gmail.com
+  email = jared.radin@akqa.com
 
 [core]
   # Use custom `.gitignore` and `.gitattributes`
@@ -17,3 +17,5 @@
   co = checkout
   df = diff
   lg = log -p
+[push]
+  default = simple
