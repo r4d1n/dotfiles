@@ -71,3 +71,6 @@ alias rser="bundle exec rails s"
 
 alias crepe="grep -irn"
 alias grapp="ps -ax | grep"
+
+# starting local postgres
+alias pgstart="postgres -D /usr/local/var/postgres"
