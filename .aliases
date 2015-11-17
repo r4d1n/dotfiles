@@ -7,7 +7,7 @@ alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
 # Shortcuts
-alias prj="cd ~/Projects"
+alias prj="cd ~/projects"
 alias dots="cd ~/dotfiles"
 alias g="git"
 alias h="history"
