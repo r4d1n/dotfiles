@@ -62,3 +62,8 @@ export PATH=$PATH:$GOPATH/bin
 # rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
+
+# Audi path variables
+export AUDI_CQ_UI=$HOME/projects/audi/audi-cq-ui
+export AUDI_BOOTSTRAP_EXPORT_DIR=$AUDI_CQ_UI/src/main/content/jcr_root/etc/designs/audiusa/vendor/bower_components/audi-bootstrap
+export AUDI_BOOTSTRAP_CAP_BRANCH=master
