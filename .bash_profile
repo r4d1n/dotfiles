@@ -56,7 +56,7 @@ export PATH=/usr/local/heroku/bin:$PATH
 
 # go
 export PATH=$PATH:/usr/local/go/bin
-export GOPATH=$HOME/workspace
+export GOPATH=$HOME/projects/go_workspace
 export PATH=$PATH:$GOPATH/bin
 
 # rbenv
@@ -67,3 +67,6 @@ eval "$(rbenv init -)"
 export AUDI_CQ_UI=$HOME/projects/audi/audi-cq-ui
 export AUDI_BOOTSTRAP_EXPORT_DIR=$AUDI_CQ_UI/src/main/content/jcr_root/etc/designs/audiusa/vendor/bower_components/audi-bootstrap
 export AUDI_BOOTSTRAP_CAP_BRANCH=master
+
+
+export MAVEN_OPTS="-Xms512m -Xmx1024m -XX:PermSize=512m"
