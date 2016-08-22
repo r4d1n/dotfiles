@@ -74,3 +74,6 @@ alias grapp="ps -ax | grep"
 
 # starting local postgres
 alias pgstart="postgres -D /usr/local/var/postgres"
+
+# easily add gh ssh key
+alias github="ssh-agent && ssh-add ~/.ssh/github/id_rsa"

@@ -60,3 +60,6 @@ export PATH=$PATH:$GOPATH/bin
 # rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
+
+# nand2tetris software
+export PATH=$PATH:~/Desktop/nand2tetris/tools
