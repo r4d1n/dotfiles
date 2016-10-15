@@ -54,7 +54,7 @@ export PATH=/usr/local/heroku/bin:$PATH
 
 # go
 export PATH=$PATH:/usr/local/go/bin
-export GOPATH=$HOME/workspace
+export GOPATH=$HOME/projects/go
 export PATH=$PATH:$GOPATH/bin
 
 # rbenv
