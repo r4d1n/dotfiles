@@ -42,6 +42,9 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 # If possible, add tab completion for many more commands
 [ -f /etc/bash_completion ] && source /etc/bash_completion
 
+# Homebrew sqlite
+export PATH="/usr/local/opt/sqlite/bin:$PATH"
+
 # Node stuff
 export NODE_PARENT=${HOME}/nodejs
 export PATH=${NODE_PARENT}/bin:${PATH}
