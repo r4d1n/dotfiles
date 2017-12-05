@@ -71,5 +71,8 @@ export AUDI_CQ_UI=$HOME/projects/audi/audi-cq-ui
 export AUDI_BOOTSTRAP_EXPORT_DIR=$AUDI_CQ_UI/src/main/content/jcr_root/etc/designs/audiusa/vendor/bower_components/audi-bootstrap
 export AUDI_BOOTSTRAP_CAP_BRANCH=master
 
-
 export MAVEN_OPTS="-Xms512m -Xmx1024m -XX:PermSize=512m"
+
+# python 3
+export PATH=$PATH:$HOME/Library/Python/3.6/bin/
+
